@@ -1,0 +1,42 @@
+body {
+  background-color: #ffffe6;
+}
+.col-md-6 {
+  background-color: #cccccc;
+  border-radius: 10px;
+  margin: 5px;
+  width: 49%;
+}
+
+.top-columns {
+  height: 200px;
+}
+
+.btn-default {
+  margin-top: 15px;
+  float: right;
+
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.account-list {
+  display: inline;
+  cursor: pointer;
+}
+
+.account-list:hover {
+  font-weight: bold;
+}
+
+.account-list:active {
+  font-weight: bold;
+  color: gray;
+}
+
+#warning {
+  color: red;
+  
+}
