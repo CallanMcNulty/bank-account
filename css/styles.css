@@ -38,5 +38,14 @@ body {
 
 #warning {
   color: red;
-  
+
+}
+
+#sign-in {
+  padding: 10px;
+}
+
+#sign-up-btn, #sign-in-btn {
+  float: right;
+  margin: 5px;
 }

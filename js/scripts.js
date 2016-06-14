@@ -76,7 +76,7 @@ $(document).ready(function() {
 
     displayHistory();
   });
-  $("#sign-up").click(function() {
+  $("#sign-up-btn").click(function() {
     var username = $("#input-username").val();
     var password = $("#input-password").val();
     var newUser = new User(username, password);
@@ -89,7 +89,7 @@ $(document).ready(function() {
     $("#input-username").val("");
     $("#input-password").val("");
   });
-  $("#sign-in").click(function() {
+  $("#sign-in-btn").click(function() {
     var username = $("#input-username").val();
     var password = $("#input-password").val();
     Object.keys(userDict).forEach(function(key) {
