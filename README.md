@@ -22,6 +22,8 @@ Contact details are also in the document.
 
 * HTML
 * CSS
+* Javascript
+* JQuery
 * Bootstrap framework
 
 ### License
